@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>MyWeather</title>
+  </head>
+
+  <body>
+    <img class="bg-img" src="" alt="" srcset="" />
+    <div class="content">
+      <img class="content-bg" src="" alt="" srcset="" />
+      <div class="left">
+        <h2>MyWeather</h2>
+        <div class="bg-tab">
+          <table class="left-tab">
+            <tr>
+              <td class="left_data">
+                <h1 id="temperature"></h1>
+              </td>
+
+              <!-- <p id="time_date">time-date month year</p> -->
+              <td class="left_data img-data">
+                <img id="weather_png" src="" alt="" />
+                <p id="type"></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="left_data loc">
+                <h1 id="location"></h1>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="right">
+        <input type="text" name="" id="input_city" placeholder="Enter City" />
+        <button
+          id="search_button"
+          class="fa-solid fa-magnifying-glass"
+          style="color: black; font-size: large"
+        ></button>
+        <hr />
+        <h3 class="weather_details">Weather Details</h3>
+        <table class="right-tab">
+          <tr>
+            <td class="right_data">HUMIDITY</td>
+            <td class="right_data" id="humidity"></td>
+          </tr>
+          <tr>
+            <td class="right_data">WIND</td>
+            <td class="right_data" id="wind"></td>
+          </tr>
+          <tr>
+            <td class="right_data">FEELS LIKE</td>
+            <td class="right_data" id="feels_like"></td>
+          </tr>
+          <tr>
+            <td class="right_data">CLOUDY</td>
+            <td class="right_data" id="cloudy"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/51b047b50c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
